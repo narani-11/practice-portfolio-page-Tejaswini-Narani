@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header .tagline {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+/* Profile Section */
+#about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #e2f0d9;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#skills ul {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
